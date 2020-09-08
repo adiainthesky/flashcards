@@ -1,6 +1,8 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $(".initially-hidden").fadeIn();
-    $(".initially-showing").fadeOut();
+    $(".initially-hidden").toggle();
+    $(".initially-showing").toggle();
   });
 });
+
+

@@ -1,4 +1,4 @@
-.definition {
+.initially-showing {
   display: none
 }
 
@@ -10,3 +10,5 @@
 .clickable:hover {
   text-decoration: underline;
 }
+
+
